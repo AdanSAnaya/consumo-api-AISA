@@ -12,7 +12,7 @@ export class UserListComponent implements OnInit {
   users: any[] = [];
   displayedColumns: string[] = ['id', 'name', 'email', 'role'];
   dataSource = new MatTableDataSource<any>(this.users);
-
+ 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
 
   constructor(private userService: UserService) {}
