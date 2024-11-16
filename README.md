@@ -61,3 +61,26 @@ Implementación de cantidad de elementos de paginación
 
 ![image](https://github.com/user-attachments/assets/70610689-941b-4054-9064-ccc7b77d4399)
 
+**Preguntas propuestas**
+•	¿Qué hace el método getUsers en este servicio?
+El método se encarga de realizar una petición para obtener el arreglo de información desde la API que se ingresó.
+
+•	¿Por qué es necesario importar HttpClientModule?
+Es necesario importar el modulo debido a que proporciona funcionalidades para que Angular pueda realizar peticiones HTTP. Sin este módulo no se podría consumir la API y no funcionaria 
+
+•	¿Qué función cumple el método ngOnInit en el componente UserListComponent?
+El método cumple con el propósito de obtener los datos de los usuarios y asignarlos a la variable llamada users inicializada anteriormente para poder mostrarlos en la vista.
+
+•	¿Para qué sirve el bucle *ngFor en Angular?
+Permite iterar sobre el arreglo, recorriendo el arreglo de usuarios generando los datos sobre las columnas Id, Name, Email, Role, mostrando todos los datos obtenidos de cada usuario en la Api.
+
+•	¿Qué ventajas tiene el uso de servicios en Angular para el consumo de APIs?
+Angular proporciona una forma organizada de manejar el consumo de APIS´S, permite separa la obtención y manipulación de la información de los componentes, facilitando el mantenimiento de código, además de que los servicios pueden ser utilizadas en diferentes componentes, ayudando a la reutilización de código y componentes.
+
+•	¿Por qué es importante separar la lógica de negocio de la lógica de presentación?
+Mejora el modularidad y la claridad del código, permitiendo especializar los componentes en una única función, separando los componentes y servicios, siendo los primeros los que se encargan en presentar los datos y los segundos encargados de obtener y manipular la información obtenida
+
+•	¿Qué otros tipos de datos o APIs podrías integrar en un proyecto como este?
+Como fue mencionado en clase se pueden incluir Apis que proporcionen información de productos, información del tiempo, estadísticas de diferentes tipos, datos sobre estados o información geográfica, etc. Son un gran campo el que puede integrar una API
+
+
