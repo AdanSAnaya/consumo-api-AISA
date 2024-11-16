@@ -62,6 +62,7 @@ Implementación de cantidad de elementos de paginación
 ![image](https://github.com/user-attachments/assets/70610689-941b-4054-9064-ccc7b77d4399)
 
 **Preguntas propuestas**
+
 •	¿Qué hace el método getUsers en este servicio?
 El método se encarga de realizar una petición para obtener el arreglo de información desde la API que se ingresó.
 
